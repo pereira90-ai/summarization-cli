@@ -1,0 +1,8 @@
+The provided text appears to be a series of practice exercises for intermediate Microsoft Excel skills. The exercises cover various topics such as data formatting, sorting, equations, conditional formatting, and data validation. The objectives for each practice include:
+
+- Practice 1: Applying currency formatting, using AutoSum, calculating averages, and inserting IF functions.
+- Practice 2: Sorting data, creating custom headers and footers, and modifying page layout.
+- Practice 3: Entering data, using AutoFill, formatting cell borders and contents, calculating totals, and using conditional formatting.
+- Practice 4: Creating drop-down controls, applying data validation, renaming sheets, and using conditional formatting.
+
+Each practice has specific objectives and tasks to complete, with a rubric provided to evaluate the learner's performance.
