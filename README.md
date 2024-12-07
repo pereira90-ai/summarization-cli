@@ -22,6 +22,7 @@ conda activate summarizor
 
 - Install cuda enabled torch on the conda environment:
 ```python
+pip uninstall torch -y
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
