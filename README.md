@@ -33,16 +33,16 @@ And then:
 python download_model.py
 ```
 ### Run the summarizor with command
-
+You can use text or PDF file as an input
 ```python
-python app.py <your_pdf.pdf> <output_file.txt> <max_token_len>
+python app.py <your_pdf.txt> <output_file.txt> <max_token_len>
 ```
 
 Sample usage:
 ```python
 python app.py meeting_summary.pdf out.txt 256
 ```
-Here `your_pdf.pdf` is the path of your pdf file to summarize while `output_file.txt` is the path of the result.
+Here `your_pdf.txt` is the path of your meeting log file to summarize while `output_file.txt` is the path of the result.
 And `max_token_len` is the optional parameter to change the length of the summary length.
 
 ## Enjoy!
