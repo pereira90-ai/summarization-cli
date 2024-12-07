@@ -22,9 +22,9 @@ def main(inpu_pdf, output_txt, MAX_NEW_TOKENS=256):
         torch_dtype=torch.bfloat16,
         device_map="auto",
     )
-    if inpu_pdf.split('.'[-1]) == 'pdf':
+    if inpu_pdf.split('.')[-1] == 'pdf':
         text = read_pdf(inpu_pdf)
-    elif inpu_pdf.split('.'[-1]) == 'txt':
+    elif inpu_pdf.split('.')[-1] == 'txt':
         with open(inpu_pdf, 'r') as file:
             text_lines = file.readlines()
             # include = True
@@ -38,7 +38,10 @@ def main(inpu_pdf, output_txt, MAX_NEW_TOKENS=256):
             #     if include:
             #         teacher_texts.append(text_line)
 
-            text = '\n'.join(text_lines)            
+            text = '\n'.join(text_lines)
+    else: 
+        print("Input file must be one of two types: txt or pdf")        
+        return
     messages = [
         {"role": "user", "content": text + 'Fasse nur die Sätze des Lehrers zusammen.'},
     ]
