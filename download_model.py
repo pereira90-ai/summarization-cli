@@ -16,7 +16,7 @@ def model_download(filename = 'model-00001-of-00002.safetensors'):
     # Download the file  
     file_path = hf_hub_download(repo_id=repo_id, filename=filename)  
 
-    os.mkdirs(dest_dir_path, exist_ok = True)
+    os.makedirs(dest_dir_path, exist_ok = True)
     shutil.move(file_path, destination_file_path)
 
 if __name__ == '__main__':
