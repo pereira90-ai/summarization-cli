@@ -1,1 +1,0 @@
-Der Script sollte für kleine Workshops (Teacher-Talk: 70-80% der Zeit) eine Zusammenfassung der Hauptthemen und Punkte abgeben.

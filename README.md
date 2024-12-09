@@ -7,9 +7,9 @@ This is just the simple summarization tool for evaluating the LLama3 model's per
 
 ### Clone the repository from the github repository:
 ```git
-git clone https://github.com/pereira90-ai/llama3-cli-summarizor
+git clone https://github.com/pereira90-ai/summarization-cli
 
-cd llaba3-cli-summarizor
+cd summarization-cli
 ```
 
 ### Environment Setup
