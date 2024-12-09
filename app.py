@@ -22,9 +22,28 @@ def main(inpu_pdf, output_txt, MAX_NEW_TOKENS=256):
         torch_dtype=torch.bfloat16,
         device_map="auto",
     )
-    text = read_pdf(inpu_pdf)
+    if inpu_pdf.split('.')[-1] == 'pdf':
+        text = read_pdf(inpu_pdf)
+    elif inpu_pdf.split('.')[-1] == 'txt':
+        with open(inpu_pdf, 'r') as file:
+            text_lines = file.readlines()
+            # include = True
+            # teacher_texts = []
+            # for text_line in text_lines:
+            #     if "teacher:" in text_line.lower():
+            #         include = True
+            #     elif 'speaker' in text_line.lower():
+            #         include = False 
+
+            #     if include:
+            #         teacher_texts.append(text_line)
+
+            text = '\n'.join(text_lines)
+    else: 
+        print("Input file must be one of two types: txt or pdf")        
+        return
     messages = [
-        {"role": "user", "content": text + 'Summarize the above sentence.'},
+        {"role": "user", "content": text + 'Fasse nur die Sätze des Lehrers zusammen.'},
     ]
 
     outputs = pipe(
