@@ -20,5 +20,5 @@ def model_download(filename = 'model-00001-of-00002.safetensors'):
     shutil.move(file_path, destination_file_path)
 
 if __name__ == '__main__':
-    model_download()
+    # model_download()
     model_download('model-00002-of-00002.safetensors')

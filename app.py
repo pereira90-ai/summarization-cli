@@ -27,25 +27,30 @@ def main(inpu_pdf, output_txt, MAX_NEW_TOKENS=256):
     elif inpu_pdf.split('.')[-1] == 'txt':
         with open(inpu_pdf, 'r') as file:
             text_lines = file.readlines()
-            # include = True
-            # teacher_texts = []
-            # for text_line in text_lines:
-            #     if "teacher:" in text_line.lower():
-            #         include = True
-            #     elif 'speaker' in text_line.lower():
-            #         include = False 
+            include = True
+            teacher_texts = []
+            for text_line in text_lines:
+                if "teacher:" in text_line.lower():
+                    include = True
+                elif 'student' in text_line.lower():
+                    include = False 
+                print(str(include) + text_line)
+                if include:
+                    teacher_texts.append(text_line)
 
-            #     if include:
-            #         teacher_texts.append(text_line)
+            # text = '\n'.join(text_lines)
+            text = '\n'.join(teacher_texts)
 
-            text = '\n'.join(text_lines)
+            with open('teacher.txt', 'w') as file:
+                file.write(text)
     else: 
         print("Input file must be one of two types: txt or pdf")        
         return
     messages = [
-        {"role": "user", "content": text + 'Fasse nur die Sätze des Lehrers zusammen.'},
+        {"role": "user", "content": 'Give me the summary of the below text. text: ' + text},
     ]
-
+    # summary = pipe(text, min_length=25, do_sample=True)  
+    # print(summary[0]['summary_text'])
     outputs = pipe(
         messages,
         max_new_tokens=MAX_NEW_TOKENS,
