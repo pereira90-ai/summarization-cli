@@ -42,12 +42,12 @@ def main(inpu_pdf, output_txt, MAX_NEW_TOKENS=512):
 
             # with open('teacher.txt', 'w') as file:
             #     file.write(text)
-            text = text.replace('Teacher:', '')
+            # text = text.replace('Teacher:', '')
     else: 
         print("Input file must be one of two types: txt or pdf")        
         return
     messages = [
-        {"role": "user", "content": 'You are an experienced summarizor. Summarize the following: ' + text}
+        {"role": "user", "content": 'You are an experienced summarizor. Summarize the following sentences: "' + text + '"'}
     ]
     # summary = pipe(text, min_length=25, do_sample=True)  
     # print(summary[0]['summary_text'])

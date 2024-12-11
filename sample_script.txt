@@ -1,39 +1,59 @@
-Teacher: Guten Nachmittag, alle zusammen. Ich hoffe, es geht euch allen gut heute. Bevor wir anfangen, könnt ihr mir bitte sagen, ob ihr da seid und ob ihr die Materialien, die ich euch geschickt habe, durchsehen konntet?
+Teacher: 
+Guten Nachmittag, alle zusammen. Ich hoffe, es geht euch allen gut heute. Bevor wir anfangen, könnt ihr mir bitte sagen, ob ihr da seid und ob ihr die Materialien, die ich euch geschickt habe, durchsehen konntet?
 
-Student01: Guten Nachmittag, Teacher! Ja, ich bin hier, und ich habe mir die Materialien angesehen. Allerdings habe ich eine Frage zum zweiten Thema.
+Student01: 
+Guten Nachmittag, Teacher! Ja, ich bin hier, und ich habe mir die Materialien angesehen. Allerdings habe ich eine Frage zum zweiten Thema.
 
-Student02: Hallo, Teacher. Ich bin auch da. Ich habe die Materialien ebenfalls durchgesehen, aber ein paar Teile fand ich ziemlich schwierig.
+Student02: 
+Hallo, Teacher. Ich bin auch da. Ich habe die Materialien ebenfalls durchgesehen, aber ein paar Teile fand ich ziemlich schwierig.
 
-Teacher: Es ist super, dass ihr euch die Materialien angesehen habt. Wir gehen die schwierigen Teile gemeinsam durch. Aber zuerst fassen wir kurz den ersten Abschnitt zusammen. Kann mir jemand die Hauptkonzepte von Thema 1 erklären?
+Teacher: 
+Es ist super, dass ihr euch die Materialien angesehen habt. Wir gehen die schwierigen Teile gemeinsam durch. Aber zuerst fassen wir kurz den ersten Abschnitt zusammen. Kann mir jemand die Hauptkonzepte von Thema 1 erklären?
 
-Student01: Thema 1 handelte von nachhaltigen Energielösungen, oder? Es ging um erneuerbare Energiequellen wie Solar-, Wind- und Wasserkraft.
+Student01: 
+Thema 1 handelte von nachhaltigen Energielösungen, oder? Es ging um erneuerbare Energiequellen wie Solar-, Wind- und Wasserkraft.
 
-Teacher: Genau! Sehr gut. Und warum meint ihr, dass erneuerbare Energien so wichtig sind?
+Teacher: 
+Genau! Sehr gut. Und warum meint ihr, dass erneuerbare Energien so wichtig sind?
 
-Student02: Ich glaube, weil erneuerbare Energiequellen helfen können, CO₂-Emissionen zu reduzieren und den Klimawandel zu bekämpfen.
+Student02: 
+Ich glaube, weil erneuerbare Energiequellen helfen können, CO₂-Emissionen zu reduzieren und den Klimawandel zu bekämpfen.
 
-Teacher: Das ist richtig! Erneuerbare Energien spielen eine große Rolle beim Schutz der Umwelt. Sie sind auch entscheidend für langfristige Lösungen unserer Energiebedürfnisse. Student01, du hast erwähnt, dass du eine Frage zu Thema 2 hast. Kannst du sie nochmal stellen?
+Teacher: 
+Das ist richtig! Erneuerbare Energien spielen eine große Rolle beim Schutz der Umwelt. Sie sind auch entscheidend für langfristige Lösungen unserer Energiebedürfnisse. Student01, du hast erwähnt, dass du eine Frage zu Thema 2 hast. Kannst du sie nochmal stellen?
 
-Student01: Klar! Ich war etwas verwirrt wegen des Unterschieds zwischen passiver Solarheizung und aktiven Solarsystemen. Könnten Sie das nochmal erklären?
+Student01: 
+Klar! Ich war etwas verwirrt wegen des Unterschieds zwischen passiver Solarheizung und aktiven Solarsystemen. Könnten Sie das nochmal erklären?
 
-Teacher: Natürlich. Passive Solarheizung nutzt das Design von Gebäuden, um auf natürliche Weise Wärme der Sonne einzufangen und zu speichern – zum Beispiel durch Fenster, die zur Sonne ausgerichtet sind. Aktive Solarsysteme hingegen verwenden Technologien wie Solarpaneele und Pumpen, um Energie zu sammeln und weiterzuverteilen. Klingt das jetzt verständlicher?
+Teacher: 
+Natürlich. Passive Solarheizung nutzt das Design von Gebäuden, um auf natürliche Weise Wärme der Sonne einzufangen und zu speichern – zum Beispiel durch Fenster, die zur Sonne ausgerichtet sind. Aktive Solarsysteme hingegen verwenden Technologien wie Solarpaneele und Pumpen, um Energie zu sammeln und weiterzuverteilen. Klingt das jetzt verständlicher?
 
-Student01: Ja, das hilft wirklich! Vielen Dank.
+Student01: 
+Ja, das hilft wirklich! Vielen Dank.
 
-Student02: Oh, ich habe dazu eine Anschlussfrage. Woran erkennen Ingenieure, wann sie ein aktives System oder ein passives System verwenden sollten?
+Student02: 
+Oh, ich habe dazu eine Anschlussfrage. Woran erkennen Ingenieure, wann sie ein aktives System oder ein passives System verwenden sollten?
 
-Teacher: Gute Frage! Die Entscheidung hängt vom Design des Gebäudes, vom Standort und vom Energiebedarf ab. Passive Systeme eignen sich gut, um Kosten zu senken und natürliche Ressourcen zu nutzen, während aktive Systeme in Gegenden mit weniger Sonnenlicht konstantere Energie liefern können.
+Teacher: 
+Gute Frage! Die Entscheidung hängt vom Design des Gebäudes, vom Standort und vom Energiebedarf ab. Passive Systeme eignen sich gut, um Kosten zu senken und natürliche Ressourcen zu nutzen, während aktive Systeme in Gegenden mit weniger Sonnenlicht konstantere Energie liefern können.
 
-Student02: Jetzt verstehe ich – danke für die Erklärung.
+Student02: 
+Jetzt verstehe ich – danke für die Erklärung.
 
-Teacher: Gern geschehen! Falls euch noch weitere Fragen einfallen, stellt sie einfach. Bevor wir fertig sind, sprechen wir noch kurz über die Aufgaben, die ihr bis zum nächsten Treffen erledigen sollt. Bitte arbeitet die Fallstudie über städtische Projekte mit erneuerbaren Energien durch und bereitet eine kurze Zusammenfassung über die Herausforderungen und Lösungen vor. Gibt es dazu Fragen?
+Teacher: 
+Gern geschehen! Falls euch noch weitere Fragen einfallen, stellt sie einfach. Bevor wir fertig sind, sprechen wir noch kurz über die Aufgaben, die ihr bis zum nächsten Treffen erledigen sollt. Bitte arbeitet die Fallstudie über städtische Projekte mit erneuerbaren Energien durch und bereitet eine kurze Zusammenfassung über die Herausforderungen und Lösungen vor. Gibt es dazu Fragen?
 
-Student01: Nein, ich glaube, ich habe die Aufgabe verstanden.
+Student01: 
+Nein, ich glaube, ich habe die Aufgabe verstanden.
 
-Student02: Ich auch – danke!
+Student02: 
+Ich auch – danke!
 
-Teacher: Perfekt. Das war’s für heute. Vielen Dank für eure Teilnahme, und wir sehen uns bei unserem nächsten Treffen. Macht’s gut!
+Teacher: 
+Perfekt. Das war’s für heute. Vielen Dank für eure Teilnahme, und wir sehen uns bei unserem nächsten Treffen. Macht’s gut!
 
-Student01: Vielen Dank, Teacher! Auf Wiedersehen.
+Student01: 
+Vielen Dank, Teacher! Auf Wiedersehen.
 
-Student02: Danke, Teacher! Bis zum nächsten Mal.
+Student02: 
+Danke, Teacher! Bis zum nächsten Mal.
