@@ -13,7 +13,7 @@ def read_pdf(file_path):
             text += reader.pages[page].extract_text()  
     return text 
 
-def main(inpu_pdf, output_txt, MAX_NEW_TOKENS=256):
+def main(inpu_pdf, output_txt, MAX_NEW_TOKENS=512):
     # Load the lightweight text model
     model_id = "pretrained/llama-3.2-3b"
     pipe = pipeline(
@@ -34,32 +34,32 @@ def main(inpu_pdf, output_txt, MAX_NEW_TOKENS=256):
                     include = True
                 elif 'student' in text_line.lower():
                     include = False 
-                print(str(include) + text_line)
+                # print(str(include) + text_line)
                 if include:
                     teacher_texts.append(text_line)
 
-            # text = '\n'.join(text_lines)
             text = '\n'.join(teacher_texts)
 
-            with open('teacher.txt', 'w') as file:
-                file.write(text)
+            # with open('teacher.txt', 'w') as file:
+            #     file.write(text)
+            text = text.replace('Teacher:', '')
     else: 
         print("Input file must be one of two types: txt or pdf")        
         return
     messages = [
-        {"role": "user", "content": 'Give me the summary of the below text. text: ' + text},
+        {"role": "user", "content": 'You are an experienced summarizor. Summarize the following: ' + text}
     ]
     # summary = pipe(text, min_length=25, do_sample=True)  
     # print(summary[0]['summary_text'])
     outputs = pipe(
         messages,
-        max_new_tokens=MAX_NEW_TOKENS,
+        max_new_tokens=MAX_NEW_TOKENS
     )
 
     response = outputs[0]["generated_text"][-1]["content"]
     print(response)
 
-    with open(output_txt, 'w') as file:
+    with open(output_txt, 'w', encoding='utf-8') as file:
         file.write(response)
 
 

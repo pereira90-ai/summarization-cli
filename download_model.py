@@ -8,7 +8,7 @@ login(token=HUGGINGFACE_API_KEY)
 from huggingface_hub import hf_hub_download  
 
 def model_download(filename = 'model-00001-of-00002.safetensors'):
-    repo_id = 'meta-llama/Llama-3.2-3B'  # Replace with the actual repo ID  
+    repo_id = 'meta-llama/Llama-3.2-3B-Instruct'  # Replace with the actual repo ID  
     dest_dir_path = 'pretrained/llama-3.2-3b'
 
     destination_file_path = os.path.join(dest_dir_path, filename)  
